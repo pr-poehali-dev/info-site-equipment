@@ -70,8 +70,7 @@ const Index = () => {
       <header className="fixed top-0 w-full bg-background/95 backdrop-blur-sm border-b border-border z-50">
         <nav className="container mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <img src="https://cdn.poehali.dev/files/c4f685c8-1b74-4107-bc3e-bff00923356b.png" alt="TechEquip" className="h-10 w-auto" />
-            <span className="text-2xl font-bold">TechEquip</span>
+            <img src="https://cdn.poehali.dev/files/d619e1d1-cad9-4e4a-8d9f-e497282c7298.png" alt="Velino" className="h-10 w-auto" />
           </div>
           <div className="hidden md:flex gap-6">
             {['home', 'about', 'catalog', 'services', 'contacts'].map((section) => (
@@ -335,8 +334,7 @@ const Index = () => {
           <div className="grid md:grid-cols-4 gap-8 mb-8">
             <div>
               <div className="flex items-center gap-3 mb-4">
-                <img src="https://cdn.poehali.dev/files/c4f685c8-1b74-4107-bc3e-bff00923356b.png" alt="TechEquip" className="h-9 w-auto" />
-                <span className="text-xl font-bold">TechEquip</span>
+                <img src="https://cdn.poehali.dev/files/d619e1d1-cad9-4e4a-8d9f-e497282c7298.png" alt="Velino" className="h-8 w-auto" />
               </div>
               <p className="text-sm text-muted-foreground">
                 Ваш надежный партнер в области промышленного оборудования
@@ -377,7 +375,7 @@ const Index = () => {
           </div>
           
           <div className="border-t border-border pt-8 text-center text-sm text-muted-foreground">
-            <p>© 2024 TechEquip. Все права защищены.</p>
+            <p>© 2024 Velino. Все права защищены.</p>
           </div>
         </div>
       </footer>
