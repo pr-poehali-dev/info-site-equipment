@@ -69,8 +69,8 @@ const Index = () => {
     <div className="min-h-screen bg-background">
       <header className="fixed top-0 w-full bg-background/95 backdrop-blur-sm border-b border-border z-50">
         <nav className="container mx-auto px-4 py-4 flex items-center justify-between">
-          <div className="flex items-center gap-2">
-            <Icon name="Factory" size={32} className="text-primary" />
+          <div className="flex items-center gap-3">
+            <img src="https://cdn.poehali.dev/files/c4f685c8-1b74-4107-bc3e-bff00923356b.png" alt="TechEquip" className="h-10 w-auto" />
             <span className="text-2xl font-bold">TechEquip</span>
           </div>
           <div className="hidden md:flex gap-6">
@@ -334,8 +334,8 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-4 gap-8 mb-8">
             <div>
-              <div className="flex items-center gap-2 mb-4">
-                <Icon name="Factory" size={28} className="text-primary" />
+              <div className="flex items-center gap-3 mb-4">
+                <img src="https://cdn.poehali.dev/files/c4f685c8-1b74-4107-bc3e-bff00923356b.png" alt="TechEquip" className="h-9 w-auto" />
                 <span className="text-xl font-bold">TechEquip</span>
               </div>
               <p className="text-sm text-muted-foreground">
