@@ -106,7 +106,7 @@ const Index = () => {
               Инновационные решения для вашего производства
             </Badge>
             <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-primary via-blue-400 to-primary bg-clip-text text-transparent">
-              Промышленное оборудование нового поколения
+              Премиальное оборудование для водоподготовки
             </h1>
             <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
               Поставка и обслуживание высокотехнологичного промышленного оборудования для автоматизации производства
