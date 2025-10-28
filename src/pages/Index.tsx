@@ -175,7 +175,7 @@ const Index = () => {
             <div className="text-center mb-16">
               <h2 className="text-4xl font-bold mb-4">Каталог оборудования</h2>
               <p className="text-muted-foreground">
-                Широкий ассортимент промышленного оборудования
+                Широкий ассортимент оборудования
               </p>
             </div>
 
