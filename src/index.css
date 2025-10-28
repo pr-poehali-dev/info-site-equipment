@@ -55,10 +55,11 @@
   body {
     @apply bg-background text-foreground;
     font-family: "Onest", sans-serif;
-    background-image: url("https://cdn.poehali.dev/projects/c7d0aa0d-2ad5-4f88-9138-6816fa64b248/files/471d1526-5d8b-4e7a-9082-3ff8c77884c4.jpg");
+    background-image: url("https://cdn.poehali.dev/projects/c7d0aa0d-2ad5-4f88-9138-6816fa64b248/files/19ddf7dd-ef58-4dd0-8f89-fbbb3dccadf7.jpg");
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
+    background-repeat: no-repeat;
   }
 
   h1,
