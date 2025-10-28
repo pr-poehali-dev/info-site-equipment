@@ -15,7 +15,16 @@ const Index = () => {
     element?.scrollIntoView({ behavior: 'smooth' });
   };
 
-  const equipment: any[] = [];
+  const equipment = [
+    {
+      id: 1,
+      name: 'Генераторы диоксида хлора',
+      category: 'Водоподготовка',
+      description: 'Профессиональное оборудование для дезинфекции и обработки воды',
+      image: 'https://cdn.poehali.dev/projects/c7d0aa0d-2ad5-4f88-9138-6816fa64b248/files/9181f193-e88b-4a52-8ad9-18953fc3e422.jpg',
+      specs: ['Производительность: 8-4000 г/час', 'Автоматическое управление', 'Высокая надежность']
+    }
+  ];
 
   const services = [
     {
@@ -154,10 +163,42 @@ const Index = () => {
               </p>
             </div>
 
-            <div className="text-center py-12">
-              <p className="text-muted-foreground text-lg">
-                Каталог оборудования скоро будет доступен
-              </p>
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {equipment.map((item) => (
+                <Card key={item.id} className="overflow-hidden group hover:shadow-2xl transition-all">
+                  <div className="relative h-64 overflow-hidden">
+                    <img 
+                      src={item.image} 
+                      alt={item.name}
+                      className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                    />
+                    <Badge className="absolute top-4 right-4 bg-primary/90">
+                      {item.category}
+                    </Badge>
+                  </div>
+                  <CardHeader>
+                    <CardTitle className="flex items-center gap-2">
+                      <Icon name="Droplets" size={24} className="text-primary" />
+                      {item.name}
+                    </CardTitle>
+                    <CardDescription>{item.description}</CardDescription>
+                  </CardHeader>
+                  <CardContent>
+                    <div className="space-y-2 mb-4">
+                      {item.specs.map((spec, idx) => (
+                        <div key={idx} className="flex items-center gap-2 text-sm">
+                          <Icon name="CheckCircle2" size={16} className="text-primary" />
+                          <span className="text-muted-foreground">{spec}</span>
+                        </div>
+                      ))}
+                    </div>
+                    <Button className="w-full gap-2">
+                      <Icon name="FileText" size={16} />
+                      Подробнее
+                    </Button>
+                  </CardContent>
+                </Card>
+              ))}
             </div>
           </div>
         </section>
