@@ -105,7 +105,7 @@ const Index = () => {
               <Icon name="Zap" size={16} className="mr-2" />
               Инновационные решения для вашего производства
             </Badge>
-            <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-primary via-blue-400 to-primary bg-clip-text text-transparent">
+            <h1 className="text-5xl md:text-7xl font-bold mb-6" style={{ color: '#008080' }}>
               Премиальное оборудование для водоподготовки
             </h1>
             <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
