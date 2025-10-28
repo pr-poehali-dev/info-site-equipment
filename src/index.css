@@ -6,44 +6,44 @@
 
 @layer base {
   :root {
-    --background: 220 20% 10%;
-    --foreground: 0 0% 98%;
+    --background: 210 15% 90%;
+    --foreground: 220 20% 15%;
 
-    --card: 220 18% 14%;
-    --card-foreground: 0 0% 98%;
+    --card: 0 0% 100%;
+    --card-foreground: 220 20% 15%;
 
-    --popover: 220 18% 14%;
-    --popover-foreground: 0 0% 98%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 20% 15%;
 
-    --primary: 199 89% 48%;
+    --primary: 180 85% 35%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 220 15% 25%;
-    --secondary-foreground: 0 0% 98%;
+    --secondary: 210 15% 85%;
+    --secondary-foreground: 220 20% 15%;
 
-    --muted: 220 15% 20%;
-    --muted-foreground: 0 0% 60%;
+    --muted: 210 15% 85%;
+    --muted-foreground: 220 15% 45%;
 
-    --accent: 199 89% 48%;
+    --accent: 0 85% 50%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
 
-    --border: 220 15% 25%;
-    --input: 220 15% 25%;
-    --ring: 199 89% 48%;
+    --border: 210 15% 80%;
+    --input: 210 15% 80%;
+    --ring: 180 85% 35%;
 
     --radius: 0.5rem;
 
-    --sidebar-background: 220 18% 14%;
-    --sidebar-foreground: 0 0% 90%;
-    --sidebar-primary: 199 89% 48%;
+    --sidebar-background: 0 0% 100%;
+    --sidebar-foreground: 220 20% 15%;
+    --sidebar-primary: 180 85% 35%;
     --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 220 15% 20%;
-    --sidebar-accent-foreground: 0 0% 90%;
-    --sidebar-border: 220 15% 25%;
-    --sidebar-ring: 199 89% 48%;
+    --sidebar-accent: 210 15% 95%;
+    --sidebar-accent-foreground: 220 20% 15%;
+    --sidebar-border: 210 15% 80%;
+    --sidebar-ring: 180 85% 35%;
   }
 }
 
@@ -55,6 +55,10 @@
   body {
     @apply bg-background text-foreground;
     font-family: "Onest", sans-serif;
+    background-image: url("https://cdn.poehali.dev/projects/c7d0aa0d-2ad5-4f88-9138-6816fa64b248/files/471d1526-5d8b-4e7a-9082-3ff8c77884c4.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
   }
 
   h1,
